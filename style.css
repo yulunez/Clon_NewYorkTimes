@@ -1,6 +1,7 @@
 
 body{
     background-color:#fff;
+    cursor: pointer;
 }
 
 *{
@@ -17,23 +18,25 @@ body{
     
 }
 .contenedor{
-   position: relative;
+
    overflow: hidden;
   }
   .navegacion{
   
-   z-index: 9;
+   
    position:absolute;
    margin: 0 1px;
+   background-color: transparent;
    top: 0;
    left: 0;
-   padding: 1.875rem;
+   padding: 1rem;
    width: 100%;
    display: flex;
    list-style: none;
    justify-content: center;
-   margin-left: -6%;
-   margin-top: -1%;
+   margin-left: -4%;
+   margin-top: -0.7%;
+   
    
   }
   li a{
@@ -47,22 +50,25 @@ body{
  margin-right: 3rem;
  
   }
-  a:hover{
+ .navegacion a:hover{
     background-color:  rgba(94, 95, 96, 0.068);
     border-radius: 7%;
     
   }
   .buscador{
+    position: relative;
     font-size: 1.5rem;
     font-weight: 900;
     color: black;
-    margin-left: 10%;
+    margin-left: 10.1%;
     margin-top: 0.5%;
+    z-index: 9;
+    width: 1.8rem;
+    cursor: pointer;
   }
   .buscador:hover{
     background-color:  rgba(94, 95, 96, 0.068);
-    width: 3px;
-    height: 3vh;
+    
 
   }
  .suscribir{
@@ -70,17 +76,19 @@ body{
   background-color: #4943c2d1;
   color: #fff;
   width: 12rem;
-  padding: 1.3vh;
+  padding: 1vh;
   border-radius: 0.2rem;
   border: solid 1px  #4943c2d1;
   font-weight: 700;
   font-size: 65%;
-  margin-left: 63%;
+  margin-left: 68%;
   margin-top: -1.8%;
+  z-index: 8;
+  cursor: pointer;
  }
  .suscribir:hover{
-  background-color: #47c243e0;
-  position: relative;
+    background-color: #4943c2;
+  
 
  }
  .login{
@@ -88,23 +96,32 @@ body{
   background-color: #4943c2d1;
   color: #fff;
   width: 4rem;
-  padding: 1.3vh;
+  padding: 1vh;
   border-radius: 0.2rem;
   border: solid 1px  #4943c2d1;
   font-weight: 700;
   font-size: 65%;
-  margin-left: 77%;
+  margin-left: 82%;
   margin-top: -1.8%;
   z-index: 9;
+  cursor: pointer;
 
  }
- .contenido{
+ .login:hover{
+    background-color: #4943c2;
+    
+    
+ }
+ .contenido1{
   position: absolute;
   display: flex;
-  margin-top: 5%;
+  margin-top: -18%;
  }
  .p1{
-  margin-left: -16.5%;
+    
+  position: absolute;
+  text-align: right;
+  right:8.3rem;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(58, 57, 57, 0.847);
   font-weight: 400;
@@ -112,14 +129,83 @@ body{
  }
  .p2{
   position: absolute;
-  margin-left: 178%;
+  margin-left:70rem;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(58, 57, 57, 0.847);
   font-weight: 400;
   font-size: 13px;
 
  }
+ .p3{
+  position: absolute;
+  margin-left:78rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(58, 57, 57, 0.847);
+  font-weight: 400;
+  font-size: 13px;
+  text-decoration: underline;
   
+ }
+ .p3:hover{
+    background-color:  rgba(94, 95, 96, 0.068);
+
+ }
+ .p4{
+    position: absolute;
+    margin-left:74rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(58, 57, 57, 0.847);
+    font-weight: 400;
+    text-decoration: underline;
+
+ }
+.p4:hover{
+    background-color:  rgba(94, 95, 96, 0.068);
+
+ }
+  .prin1{
+    font-family: "Old English Text MT", "Lucida Blackletter", serif;
+    font-size: 4rem;
+    position: relative;
+    text-align: right;
+    right: -93%;
+    margin-top: -11%;
+    
+
+  }
+  .panel{
+    background-color: transparent;
+    z-index: 9;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding:  0.5rem;
+    width: 100%;
+    display: flex;
+    margin-top: 8%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    margin-left: -1.8%;
+
+  }
+  .panel a{
+    position: relative;
+    font-size: 0.8rem;
+    color: rgb(4, 17, 28);
+    font-weight: 500;
+    margin: 0.1em;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+
+  }
+  .panel a:hover{
+    border-bottom: 2px solid rgb(4, 17, 28);
+    
+  }
 
 .domine-idk {
   font-family: "Domine", serif;
@@ -150,6 +236,7 @@ h6{
     color: red;
 }
 .contenido{
+    margin-top: 23%;
     display: grid;
     width: 100vw;
     height: 100vh;
