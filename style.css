@@ -206,7 +206,100 @@ body{
     border-bottom: 2px solid rgb(4, 17, 28);
     
   }
+  .new{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 5.3rem 22rem  5.3rem  38rem;
+    gap: 6px;
+    margin-top: -11.6%;
+    height: 14vh;
+    grid-auto-rows: 5rem;
+    background-color:transparent;
+    width: 75.4vw;
+    margin-left: 10.3%;
+    border-top:solid 2px black;
+    border-bottom:solid 2px black;
 
+  }
+  .der{
+    background: url("imagenes/guerra.jpg");
+    margin-top: 15%;
+    padding: 2.5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+  .dir{
+    background-color: transparent;
+    margin-top: 2%;
+    padding: 2.5rem;
+    border-right: solid 2px rgba(128, 128, 128, 0.499);
+
+    
+  }
+  .dur{
+    background-color:transparent;
+    margin-top: 3%;
+    padding: 2.5rem;
+    border-right: solid 2px rgba(128, 128, 128, 0.499);
+   
+  }
+  .dor{
+    background: url("imagenes/times.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 15.5%;
+    margin-left: 28%;
+    padding: 2.5rem;
+  }
+  .guer{
+    color: black;
+    font-weight: 900;
+    margin-left: -14%;
+    margin-top: -10%;
+   
+
+  }
+  .año{
+    margin-left: -14%;
+    margin-top: 1%;
+    line-height: 148%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.sus{
+    color: black;
+    font-weight: 900;
+    margin-left: -2%;
+    margin-top: -6%;
+
+}
+.recibe{
+    margin-left: -2%;
+    margin-top: 1%;
+    line-height: 148%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.buf3{
+    position: absolute;
+    background-color: #4943c2d1 ;
+    width: 6rem;
+    padding: 9px;
+    color: #fff;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: solid 1px  #4943c2d1;
+    margin-left: 33%;
+    margin-top: -3.6%;
+    cursor: pointer;
+}
+.buf3:hover{
+    background-color: #4943c2; 
+}
 .domine-idk {
   font-family: "Domine", serif;
   font-optical-sizing: auto;
