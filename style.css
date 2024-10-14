@@ -449,6 +449,7 @@ h6{
   font-weight: 600;
   margin-left: 9%;
 }
+
 .px1,
 .px3{
   margin-top: -7%;
@@ -521,6 +522,111 @@ h6{
   
   
 }
+.line3{
+  display: grid;
+  grid-template-columns: repeat(6,14.8rem);
+  grid-template-rows: 19rem;
+  height: 50vh;
+  width:100vw;
+  background-color: rgba(175, 171, 174, 0.285);
+  position: absolute;
+  z-index: 9;
+  margin-top: -0%;
+  gap: 0.8rem;
+  border-bottom:solid 2px rgba(128, 128, 128, 0.499);
 
+  
+}
+.ejer11{
+  background: url("imagenes/edi1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.l23,
+.l24,
+.l26,
+.l27
+{
+  width: 10vw;
+  padding: 13px;
+  background-color: rgba(169, 169, 169, 0.804);
+  margin-left: 35.5%;
+ margin-top: 81%;
+ justify-content: flex-end;
+ font-family: Arial, Helvetica, sans-serif;
+ border-top-left-radius: 1rem; 
+ 
+}
+.l25{
+  width: 10vw;
+  padding: 13px;
+  background-color: rgba(169, 169, 169, 0.804);
+  margin-left: 35.5%;
+ margin-top: 88%;
+ justify-content: flex-end;
+ font-family: Arial, Helvetica, sans-serif;
+ border-top-left-radius: 1rem; 
+}
+
+.ejer12{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVpLTru3e4b7-F4aH6Lsuhx19yyU7zMpYBJIXjJ98Trl-bCD8xTpi91oXIyaLpjsHpQi8&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.tuy{
+  margin-top: -13%;
+  margin-left: 56%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.ejer13{
+  background: url("imagenes/edi3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.ejer14{
+  background: url("imagenes/edi4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.ejer15{
+  background: url("imagenes/edi5.jpeg"); background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.ejer16{
+  background-color: #fff;
+}
+.ejer16,
+.ejer11,
+.ejer12,
+.ejer13,
+.ejer14,
+.ejer15{
+  margin-top: 29%;
+}
+.re3 img{
+  width: 10vw;
+  height: 5rem;
+  margin-top: 19%;
+  margin-left: 17%;
+
+}
+.iber{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-left: 8%;
+  margin-top: 13%;
+}
 
 
