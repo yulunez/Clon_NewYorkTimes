@@ -631,7 +631,7 @@ h6{
 .line12{
   display: grid;
   grid-template-columns:20rem 17.5rem 17.5rem 17.5rem;
-  grid-template-rows:26rem;
+  grid-template-rows:24.7rem;
   height: 55vh;
   width:100vw;
   background-color: transparent;
@@ -646,6 +646,7 @@ h6{
 .ejer20{
   background-color: transparent;
   border-right: solid 2px rgba(128, 128, 128, 0.499);
+  
  
   
   
@@ -656,6 +657,7 @@ h6{
 .ejer21{
   background-color: transparent;
   border-right: solid 2px rgba(128, 128, 128, 0.499);
+  
 
   
   
@@ -663,11 +665,13 @@ h6{
 .ejer22{
   background-color:transparent;
   border-right: solid 2px rgba(128, 128, 128, 0.499);
+
  
   
 }
 .ejer23{
   background-color: transparent;
+
   
   
 
@@ -677,14 +681,15 @@ h6{
   display: grid;
   grid-template-columns:17rem 13rem 13rem 16rem ;
   grid-template-rows:repeat(3,8rem);
-  height: 55vh;
-  width:100vw;
+  height: 58vh;
+  width:74.5vw;
   background-color: transparent;
   position: absolute;
   z-index: 9;
   margin-left: 13.4%;
-  gap: 4%;
+  gap: 5.3%;
   margin-top: 30%;
+  border-bottom:solid 2px black;
   
   
 
@@ -731,20 +736,21 @@ h6{
 }
 .ant{
   margin-top: 79%;
-  margin-left: 5.5%;
+  margin-left: 6%;
   font-size: 0.9rem;
   font-weight: 600;
 }
 .occi{
   margin-top: 3%;
-  margin-left: 5.5%;
+  margin-left: 6%;
   font-size: 0.9rem;
   color: #000;
   font-weight: 600;
 
 }
 .mos{
-  margin: 4.5%;
+  margin-left: 5%;
+  margin-top: 3%;
   font-size: 12px;
   line-height: 19px;
 }
@@ -845,6 +851,146 @@ h6{
   font-size: 12px;
   line-height: 19px;
 }
+
+.linexl{
+  display: grid;
+  grid-template-columns: repeat(5,14.8rem);
+  grid-template-rows: 16rem;
+  height: 43vh;
+  width:100vw;
+  background-color: transparent;
+  position: absolute;
+  z-index: 9;
+  margin-top: 61%;
+  justify-content: center;
+  border-bottom:solid 2px rgba(128, 128, 128, 0.499);
+  
+  
+}
+.ejerlu{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+  
+}
+.ejerlu,
+.ejerpu,
+.ejerpj,
+.ejerpl,
+.ejerweb{
+  margin-top: 6%;
+  
+}
+.ejerpu{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+}
+.ejerpj{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+}
+.ejerpl{
+  background-color:transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+
+}
+
+.pxri,
+.pxpñ,
+.pxx{
+  color: black;
+  font-weight: 600;
+  margin-left: 8.8%;
+  margin-top: 63%;
+}
+.pxx,
+.pxpo{
+  margin-top: 64%;
+  color: black;
+  font-weight: 600;
+  margin-left: 9%;
+}
+
+.pxre{
+  margin-top: -7%;
+  margin-left: 11%;
+  color: #000;
+  font-weight: 400;
+}
+.puer{
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 7.4%;
+
+}
+.px34{
+  margin-top: -3%;
+  position: absolute;
+  margin-left: 1.9%;
+  color: #000;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.ejerweb{
+  background-color:transparent;
+  
+}
+.lineyes{
+  display: grid;
+  grid-template-columns: repeat(5,12.2rem);
+  grid-template-rows: 8rem;
+  height: 55vh;
+  width:100vw;
+  background-color: transparent;
+  position: absolute;
+  z-index: 9;
+  margin-left: 13%;
+  margin-top: 1%;
+  gap: 2.5rem;
+
+  
+}
+.ejerloi{
+  background: url("imagenes/huracan1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.ejerpues{
+  background: url("imagenes/huracan2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.ejerjun{
+  background: url("imagenes/huracan3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.ejertito{
+  background: url("imagenes/huracan4.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+.ejerluz{
+  background: url("imagenes/huracan5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+
 
 
 
