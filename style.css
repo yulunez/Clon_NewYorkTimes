@@ -990,6 +990,119 @@ h6{
   
 }
 
+.line03{
+  display: grid;
+  grid-template-columns: repeat(6,14.8rem);
+  grid-template-rows: 19rem;
+  height: 50vh;
+  width:100vw;
+  background-color: rgba(175, 171, 174, 0.285);
+  position: absolute;
+  z-index: 9;
+  margin-top: 20.7%;
+  gap: 0.8rem;
+  border-bottom:solid 2px rgba(128, 128, 128, 0.499);
+
+  
+}
+.ejer011{
+  background: url("imagenes/edi1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.l230,
+.l240,
+.l260,
+.l270
+{
+  width: 10vw;
+  padding: 13px;
+  background-color: rgba(169, 169, 169, 0.804);
+  margin-left: 35.5%;
+ margin-top: 81%;
+ justify-content: flex-end;
+ font-family: Arial, Helvetica, sans-serif;
+ border-top-left-radius: 1rem; 
+ 
+}
+.l250{
+  width: 10vw;
+  padding: 13px;
+  background-color: rgba(169, 169, 169, 0.804);
+  margin-left: 35.5%;
+ margin-top: 88%;
+ justify-content: flex-end;
+ font-family: Arial, Helvetica, sans-serif;
+ border-top-left-radius: 1rem; 
+}
+
+.ejer012{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVpLTru3e4b7-F4aH6Lsuhx19yyU7zMpYBJIXjJ98Trl-bCD8xTpi91oXIyaLpjsHpQi8&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.tuy0{
+  margin-top: -13%;
+  margin-left: 56%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.ejer013{
+  background: url("imagenes/edi3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.ejer014{
+  background: url("imagenes/edi4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.ejer015{
+  background: url("imagenes/edi5.jpeg"); background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.ejer016{
+  background-color: #fff;
+}
+.ejer016,
+.ejer011,
+.ejer012,
+.ejer013,
+.ejer014,
+.ejer015{
+  margin-top: 29%;
+}
+.re03 img{
+  width: 13vw;
+  height: 9rem;
+  margin-top: 5%;
+  margin-left: 8%;
+
+}
+.iber0{
+  position: absolute;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin-left: 1.3%;
+  margin-top: 1%;
+}
+.ibr{
+  margin-left: 7.3%;
+  margin-top: 17%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 
