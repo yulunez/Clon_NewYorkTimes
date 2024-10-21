@@ -1102,6 +1102,298 @@ h6{
   margin-top: 17%;
   font-family: Arial, Helvetica, sans-serif;
 }
+.linexl0{
+  display: grid;
+  grid-template-columns: repeat(5,14.8rem);
+  grid-template-rows: 16rem;
+  height: 43vh;
+  width:100vw;
+  background-color: transparent;
+  position: absolute;
+  z-index: 9;
+  margin-top: 51%;
+  justify-content: center;
+  
+  
+
+}
+
+.ejerlu0{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+  
+}
+.ejerlu0,
+.ejerpu0,
+.ejerpj0,
+.ejerpl0,
+.ejerweb0{
+  margin-top: 6%;
+  
+}
+.ejerpu0{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+}
+.ejerpj0{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+}
+.ejerpl0{
+  background-color:transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+
+}
+
+.pxri0,
+.pxpñ0,
+.pxx0{
+  color: black;
+  font-weight: 600;
+  margin-left: 8.8%;
+  margin-top: 63%;
+}
+.pxx0,
+.pxpo0{
+  margin-top: 64%;
+  color: black;
+  font-weight: 600;
+  margin-left: 9%;
+}
+
+.pxre0{
+  margin-top: -7%;
+  margin-left: 11%;
+  color: #000;
+  font-weight: 400;
+}
+.puer0{
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.px340{
+  margin-top: -3%;
+  position: absolute;
+  margin-left: 1.9%;
+  color: #000;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.ejerweb0{
+  background-color:transparent;
+  
+}
+.lineyes0{
+  display: grid;
+  grid-template-columns: repeat(5,12.2rem);
+  grid-template-rows: 8rem;
+  height: 40vh;
+  width:76vw;
+  background-color:transparent;
+  position: absolute;
+  z-index: 9;
+  margin-left: 13%;
+  margin-top: 1%;
+  gap: 2.5rem;
+  border-bottom:solid 2px black;
+
+  
+}
+.clar{
+  width: 76vw;
+  height: 2vh;
+  background-color:transparent;
+  margin-top: 48.5%;
+  position: absolute;
+  margin-left: 13%;
+  border-top: 2px solid black;
+}
+.ejerloi0{
+  background: url("imagenes/noti1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.ejerpues0{
+  background: url("imagenes/noti2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.ejerjun0{
+  background: url("imagenes/noti3.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.ejertito0{
+  background: url("imagenes/noti4.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+.ejerluz0{
+  background: url("imagenes/noti5.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+.linexl02{
+  display: grid;
+  grid-template-columns: repeat(5,14.8rem);
+  grid-template-rows: 16rem;
+  height: 43vh;
+  width:100vw;
+  background-color: transparent;
+  position: absolute;
+  z-index: 9;
+  margin-top: 23%;
+  justify-content: center;
+  border-bottom:solid 2px rgba(128, 128, 128, 0.499);
+  
+  
+
+}
+
+.ejerlu02{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+  
+}
+.ejerlu02,
+.ejerpu02,
+.ejerpj02,
+.ejerpl02,
+.ejerweb02{
+  margin-top: 6%;
+  
+}
+.ejerpu02{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+}
+.ejerpj02{
+  background-color: transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+}
+.ejerpl02{
+  background-color:transparent;
+  border-right: solid 2px rgba(128, 128, 128, 0.499);
+
+}
+
+.pxri02,
+.pxpñ02,
+.pxx02{
+  color: black;
+  font-weight: 600;
+  margin-left: 8.8%;
+  margin-top: 63%;
+}
+.pxx02,
+.pxpo02{
+  margin-top: 64%;
+  color: black;
+  font-weight: 600;
+  margin-left: 9%;
+}
+
+.pxre02{
+  margin-top: -7%;
+  margin-left: 11%;
+  color: #000;
+  font-weight: 400;
+}
+.puer02{
+  position: absolute;
+  margin-top: -2%;
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.px3402{
+  margin-top: -3%;
+  position: absolute;
+  margin-left: 1.9%;
+  color: #000;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+.ejerweb02{
+  background-color:transparent;
+  
+}
+.lineyes02{
+  display: grid;
+  grid-template-columns: repeat(5,12.2rem);
+  grid-template-rows: 8rem;
+  height: 40vh;
+  width:76vw;
+  background-color:transparent;
+  position: absolute;
+  z-index: 9;
+  margin-left: 13%;
+  margin-top: 1%;
+  gap: 2.5rem;
+ 
+
+  
+}
+
+.ejerloi02{
+  background: url("imagenes/bie1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.ejerpues02{
+  background: url("imagenes/bie2.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.ejerjun02{
+  background: url("imagenes/bie3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.ejertito02{
+  background: url("imagenes/bie4.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+
+}
+.ejerluz02{
+  background: url("imagenes/bie5.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
 
 
 
