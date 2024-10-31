@@ -1619,6 +1619,40 @@ color: #000;
 font-weight: 900;
 }
 
+.panelfin{
+  border-top:solid 2px rgba(128, 128, 128, 0.499);
+  background-color: transparent;
+  z-index: 9;
+  position:absolute;
+  margin-top: 34%;
+  left: 0;
+  padding:  0.5rem;
+  width: 87vw;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-left: -1.1%;
+
+}
+.panelfin a{
+  position: relative;
+  font-size: 13px;
+  color: rgba(128, 128, 128, 0.499);
+  font-weight: 500;
+  margin: 0.1em;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  
+
+}
+.panelfin a:hover{
+  border-bottom: 2px solid rgb(4, 17, 28);
+  
+}
+
 
 
 
