@@ -1585,9 +1585,15 @@ h3{
 }
 
 .footer-right {
+  position: relative;
+  left:100%;  
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
+  grid-row: 1;
+  grid-column:-1;
+  margin-left: auto;
+  text-align: right;
 }
 
 .category h4 {
@@ -1651,6 +1657,48 @@ font-weight: 900;
 .panelfin a:hover{
   border-bottom: 2px solid rgb(4, 17, 28);
   
+}
+
+
+.account-section{
+border-bottom: solid gray 2px;
+}
+
+.littlelink{
+    font-size:10px;
+    color:gray;
+}
+.account-section h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.account-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.account-section li {
+  margin: 5px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.account-section li:before {
+  content: "• ";
+  margin-right: 5px;
+}
+
+.account-section li:hover {
+  border-bottom: solid black 2px;
+}
+
+.account-section .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 
