@@ -1624,6 +1624,14 @@ font-size: 1.5rem;
 color: #000;
 font-weight: 900;
 }
+.account-section{
+border-bottom: solid gray 2px;
+}
+
+.littlelink{
+    font-size:10px;
+    color:gray;
+}
 .account-section h4 {
   font-size: 16px;
   font-weight: bold;
