@@ -1489,6 +1489,7 @@ b{
   border-bottom: 1px solid #ccc;
   padding: 10px;
   width: 35%;
+  margin-left: 7%;
 }
 
 .filter button {
@@ -1514,7 +1515,9 @@ b{
 .article-img{
   grid-column: 4;
   grid-row: 1;
-  width: 250px;
+  width: 240px;
+  margin-top: 6%;
+  margin-left: 18%;
 }
 .textnew{
   grid-column: 3;
@@ -1539,26 +1542,40 @@ h3{
   margin-top: 10px;
 }
 .datenew{
+  position: absolute;
   grid-column: 2;
   grid-row: 1;
   font-size: 8px;
   margin-top: 10px;
+  margin-left: -3%;
+  margin-right: 2rem;
 }
 
 .article {
-  border-top: solid gray 2px;
+  border-top: solid 2px rgba(128, 128, 128, 0.499) ;
   display: grid;
-  width: 80vw;
+  width: 65vw;
+  height: 31vh;
   grid-column: 1;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 50px);
-  gap: 10px;
+  gap: 8px;
+  margin-left: 9%;
+}
+.yes4{
+  width: 85vw;
+  height: 12vh;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 109%;
+  margin-left: 6%;
+  border-bottom:   solid 2px rgba(128, 128, 128, 0.499) ;
 }
 
 .footer {
   position: absolute;
-  left: 20%;
-  bottom: -750%;
+  left: 5%;
+  margin-top: 118%;
   display: grid;
   width: 80vw;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -1591,6 +1608,15 @@ h3{
 }
 .libo:hover{
   border-bottom: solid black 2px;
+}
+.love{
+font-family: "Old English Text MT", "Lucida Blackletter", serif;
+margin-left: 2%;
+position: absolute;
+margin-top: -2.5%;
+font-size: 1.5rem;
+color: #000;
+font-weight: 900;
 }
 
 
