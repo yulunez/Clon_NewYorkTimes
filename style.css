@@ -1585,13 +1585,14 @@ h3{
 }
 
 .footer-right {
-  position: absolute;
-  margin-left:23rem;  
+  position: relative;
+  left:100%;  
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
   grid-row: 1;
   grid-column:-1;
+  margin-left: auto;
   text-align: right;
   margin-top: -27rem;
 }
@@ -1640,7 +1641,7 @@ font-weight: 900;
   align-items: center;
   gap: 4px;
   margin-left: -1.1%;
-
+  bottom: -10%;
 }
 .panelfin a{
   position: relative;
@@ -1651,11 +1652,11 @@ font-weight: 900;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
-  
-
+  bottom: 0%;
+  grid-column: 1;
 }
 .panelfin a:hover{
-  border-bottom: 2px solid rgb(4, 17, 28);
+  border-bottom: 1px solid rgb(4, 17, 28);
   
 }
 
@@ -1663,12 +1664,15 @@ font-weight: 900;
 
 
 .account-section{
-border-bottom: solid gray 2px;
+  padding-left: 5px;
+border-bottom: solid gray 1px;
+border-left: solid gray 1px;
 }
 
 .littlelink{
     font-size:10px;
     color:gray;
+
 }
 .account-section h4 {
   font-size: 16px;
@@ -1677,7 +1681,7 @@ border-bottom: solid gray 2px;
 }
 
 .account-section ul {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
 }
 
@@ -1689,12 +1693,12 @@ border-bottom: solid gray 2px;
 }
 
 .account-section li:before {
-  content: "• ";
+
   margin-right: 5px;
 }
 
 .account-section li:hover {
-  border-bottom: solid black 2px;
+  border-bottom: solid black 1px;
 }
 
 .account-section .icon {
