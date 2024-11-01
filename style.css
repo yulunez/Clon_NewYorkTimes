@@ -1585,15 +1585,15 @@ h3{
 }
 
 .footer-right {
-  position: relative;
-  left:100%;  
+  position: absolute;
+  margin-left:23rem;  
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 20px;
   grid-row: 1;
   grid-column:-1;
-  margin-left: auto;
   text-align: right;
+  margin-top: -27rem;
 }
 
 .category h4 {
@@ -1626,11 +1626,11 @@ font-weight: 900;
 }
 
 .panelfin{
-  border-top:solid 2px rgba(128, 128, 128, 0.499);
+  border-top:solid 2px rgba(180, 176, 176, 0.8);
   background-color: transparent;
   z-index: 9;
   position:absolute;
-  margin-top:-23%;
+  margin-top:2%;
   left: 0;
   padding:  0.5rem;
   width: 87vw;
@@ -1658,6 +1658,8 @@ font-weight: 900;
   border-bottom: 2px solid rgb(4, 17, 28);
   
 }
+
+
 
 
 .account-section{
